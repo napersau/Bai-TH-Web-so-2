@@ -24,7 +24,7 @@ function UserPhotos() {
           <CardMedia
             component="img"
             height="300"
-            image={require(`../../images/${photo.file_name}`)}
+            image={`/images/${photo.file_name}`}
             alt="user photo"
           />
           <CardContent>
